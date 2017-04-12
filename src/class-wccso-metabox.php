@@ -21,7 +21,7 @@ if ( ! class_exists( 'WCCSO_Metabox' ) ) {
 		}
 
 		/**
-		 * Gets the style
+		 * Gets the style for the metabox
 		 *
 		 * @version 1.0.0
 		 * @since   1.0.0
@@ -88,7 +88,7 @@ if ( ! class_exists( 'WCCSO_Metabox' ) ) {
 		}
 
 		/**
-		 * Gets the inline js
+		 * Gets the inline js for the metabox
 		 *
 		 * @version 1.0.0
 		 * @since   1.0.0
