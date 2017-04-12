@@ -5,7 +5,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 } // Exit if accessed directly
 
 if ( ! class_exists( 'WCCSO_Metabox' ) ) {
-	class WCCSO_Metabox {
+	class WCCSO_Metabox extends WCCSO_Singleton{
 
 		public $admin_field_id = 'wccso_metabox';
 
